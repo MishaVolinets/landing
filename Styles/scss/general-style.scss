@@ -1,0 +1,58 @@
+@import "fonts";
+@import "variables";
+
+body{
+  font-size: 13px;
+  font-family: 'Museo Sans 500', sans-serif;
+  color: $general-text-color;
+}
+header{
+  color: #fff;
+}
+section{
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  font: inherit;
+}
+input{
+  outline: none;
+  font-family: 'Museo Sans Cyrl 100',sans-serif;
+
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #A9A9A9;
+  }
+  &::-moz-placeholder { /* Firefox 19+ */
+    color: #A9A9A9;
+  }
+  &:-ms-input-placeholder { /* IE 10+ */
+    color: #A9A9A9;
+  }
+  &:-moz-placeholder { /* Firefox 18- */
+    color: #A9A9A9;
+  }
+
+  &:focus{
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #E0E0E0;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: #E0E0E0;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      color: #E0E0E0;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: #E0E0E0;
+    }
+  }
+}
+
+button{
+  outline: none;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}

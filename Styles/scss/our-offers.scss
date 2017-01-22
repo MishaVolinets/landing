@@ -1,0 +1,40 @@
+@import "variables";
+@import "fonts";
+
+.offers-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.title-containter{
+  text-align: center;
+  padding-bottom: 25px;
+  font-size: 25px;
+  .title{
+    font-weight: 800;
+    font-size: 30px;
+  }
+
+}
+.offer {
+  text-align: center;
+  padding: 20px 15px;
+  font-size: 18px;
+  .offer-element:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  .offer-icon{
+    font-size: 36px;
+    color: $general-icons-color;
+    line-height:30px;
+  }
+
+  .offer-title{
+    font-weight: 800;
+  }
+  .offer-description{
+    color: $general-gray-color;
+  }
+
+}

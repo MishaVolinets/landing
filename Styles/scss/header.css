@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'Aller';
+  src: url("../../Fonts/Aller/Aller.eot");
+  src: url("../../Fonts/Aller/Aller.eot?#iefix") format("embedded-opentype"), url("../../Fonts/Aller/Aller.woff") format("woff"), url("../../Fonts/Aller/Aller.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Museo Sans 500';
+  src: url("../../Fonts/MuseoSans-500/MuseoSans-500.eot");
+  src: url("../../Fonts/MuseoSans-500/MuseoSans-500.eot?#iefix") format("embedded-opentype"), url("../../Fonts/MuseoSans-500/MuseoSans-500.woff") format("woff"), url("../../Fonts/MuseoSans-500/MuseoSans-500.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Museo Sans Cyrl 100';
+  src: url("../../Fonts/MuseoSans-Cyrl/MuseoSansCyrl-100.eot");
+  src: url("../../Fonts/MuseoSans-Cyrl/MuseoSansCyrl-100.eot?#iefix") format("embedded-opentype"), url("../../Fonts/MuseoSans-Cyrl/MuseoSansCyrl-100.woff") format("woff"), url("../../Fonts/MuseoSans-Cyrl/MuseoSansCyrl-100.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal; }
+.header {
+  position: relative;
+  padding: 10px 0;
+  background-color: #333333; }
+
+.header-logo {
+  font-family: 'Aller', sans-serif;
+  font-size: 37px;
+  color: #fff; }
+  .header-logo i {
+    font-size: 50px;
+    color: #4582FF; }
+
+.contact {
+  text-align: right;
+  padding-top: 4px; }
+  .contact .skype {
+    font-size: 14px;
+    color: #999999; }
+  .contact .email {
+    font-size: 26px; }
+    .contact .email span:hover {
+      text-decoration: underline;
+      cursor: pointer; }
+
+.social div {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 15px 0 0 30px;
+  border: 1px solid #eaeaea;
+  border-radius: 50%;
+  text-align: center; }
+  .social div a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px; }
+  .social div:hover {
+    cursor: pointer;
+    border-color: #fff;
+    background-color: #fff;
+    transition: ease-out 250ms; }
+    .social div:hover a {
+      color: #333333;
+      transition: ease-out 250ms; }
+
+.bg-image {
+  width: 100%;
+  background: url("../../img/bg-header.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.landing-row {
+  padding: 150px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.about {
+  background-color: rgba(60, 60, 60, 0.85);
+  color: #fff;
+  padding: 0 15px;
+  font-size: 25px; }
+  .about .about-title {
+    font-size: 50px; }
+  .about .about-description {
+    padding-top: 15px;
+    margin-right: 15%; }
+
+.apply-form {
+  padding: 20px 15px;
+  background-color: #fff;
+  border: 1px solid #eaeaea; }
+  .apply-form h4 {
+    font-size: 40px; }
+  .apply-form input {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    background-color: #F6F6F6;
+    border: 1px solid #eaeaea; }
+    .apply-form input:focus {
+      background-color: #fff;
+      border: 1px solid #eaeaea; }
+
+.button-apply {
+  background-color: #F6F6F6;
+  border: 1px solid #333333;
+  font-size: 20px;
+  padding: 10px 5px; }
+  .button-apply:hover {
+    background-color: #fff; }
+
+/*# sourceMappingURL=header.css.map */

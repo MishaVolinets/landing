@@ -1,0 +1,138 @@
+@import "variables.scss";
+@import "fonts";
+
+.header{
+  position: relative;
+  padding: 10px 0;
+  background-color: $header-color;
+}
+
+.header-logo{
+  font-family: 'Aller', sans-serif;
+  font-size: 37px;
+  color: #fff;
+  i{
+    font-size: 50px;
+    color: $general-icons-color;
+  }
+}
+
+.contact{
+
+  text-align: right;
+  padding-top: 4px;
+
+  .skype{
+    font-size: 14px;
+    color: #999999;
+  }
+
+  .email{
+    font-size: 26px;
+    span:hover{
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
+.social{
+
+  div{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 15px 0 0 30px;
+    border: 1px solid $general-border-color;
+    border-radius: 50%;
+    text-align: center;
+
+    a{
+      font-size: 17px;
+      text-decoration: none;
+      color: #fff;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+    }
+
+    &:hover{
+      cursor: pointer;
+      border-color: #fff;
+      background-color: #fff;
+      transition: ease-out 250ms;
+
+      a{
+        color: $header-color;
+        transition: ease-out 250ms;
+      }
+    }
+  }
+}
+.bg-image{
+  width: 100%;
+  background: url('../../img/bg-header.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+
+}
+.landing-row{
+  padding: 150px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about{
+  background-color: rgba(60, 60, 60, 0.85);
+  color: #fff;
+  padding: 0 15px;
+
+  font-size: 25px;
+
+  .about-title{
+    font-size: 50px;
+  }
+
+  .about-description{
+    padding-top: 15px;
+    margin-right: 15%;
+  }
+}
+
+.apply-form{
+  padding: 20px 15px;
+  background-color: #fff;
+  border: 1px solid $general-border-color;
+
+  h4{
+    font-size: 40px;
+  }
+  
+  input{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    background-color: #F6F6F6;
+    border: 1px solid $general-border-color;
+
+    &:focus{
+      background-color: #fff;
+      border: 1px solid $general-border-color;
+    }
+
+  }
+}
+
+.button-apply{
+  background-color: #F6F6F6;
+  border: 1px solid $header-color;
+  font-size: 20px;
+  padding: 10px 5px;
+
+  &:hover{
+      background-color: #fff;
+  }
+}

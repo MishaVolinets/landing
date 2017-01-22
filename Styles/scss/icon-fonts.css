@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../../Fonts/icon_fonts/icomoon.eot?9k5pb8");
+  src: url("../../Fonts/icon_fonts/icomoon.eot?9k5pb8#iefix") format("embedded-opentype"), url("../../Fonts/icon_fonts/icomoon.ttf?9k5pb8") format("truetype"), url("../../Fonts/icon_fonts/icomoon.woff?9k5pb8") format("woff"), url("../../Fonts/icon_fonts/icomoon.svg?9k5pb8#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-time:before {
+  content: "\e905"; }
+
+.icon-support:before {
+  content: "\e906"; }
+
+.icon-ux:before {
+  content: "\e907"; }
+
+.icon-resposive:before {
+  content: "\e908"; }
+
+.icon-money:before {
+  content: "\e909"; }
+
+.icon-code:before {
+  content: "\e904"; }
+
+.icon-header:before {
+  content: "\e900"; }
+
+.icon-facebook:before {
+  content: "\e901"; }
+
+.icon-vk:before {
+  content: "\e902"; }
+
+.icon-linkedin:before {
+  content: "\e903"; }
+
+/*# sourceMappingURL=icon-fonts.css.map */
