@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta charset="UTF-8">
     <title>Landing</title>
     <link rel="stylesheet" href="Styles/bootstrap/bootstrap.min.css" />
@@ -55,11 +56,11 @@
                 <div class="col-md-4 col-sm-12">
                     <div class="apply-form">
                         <h4>Apply!</h4>
-                        <input type="text" placeholder="First name:" />
-                        <input type="text" placeholder="Last name :" />
-                        <input type="email" placeholder="E-mail:"  />
-                        <input type="text" placeholder="Project type:" />
-                        <button class="btn-block btn-sm button-apply">Apply</button>
+                        <input type="text" id="firstName" placeholder="First name:" />
+                        <input type="text" id="lastName" placeholder="Last name :" />
+                        <input type="email" id="email" placeholder="E-mail:"  />
+                        <input type="text" id="projectType" placeholder="Project type:" />
+                        <button class="btn-block btn-sm button-apply" id="apply">Apply</button>
                     </div>
                 </div>
             </div>
@@ -159,17 +160,25 @@
         <div class="buisness-wrapper wow slideInLeft" data-wow-offset="300">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-5 col-sm-offset-7">
+                    <div class="col-md-7 col-md-offset-5 col-xs-12">
                         <h1>Buisness</h1>
+                        <div class="buisness-description">
+                            If you want start your successeful buisness - first what you should do is
+                            create face of your buisness. Good variant of it is landing page. Landing page
+                            displays all information to client need and then client can build own thoughts about
+                            your company, but good or bad are it, decide a design and structure of landing page.
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section style="height: 500px;"></section>
 </body>
 <script type="text/javascript" src="Scripts/jquery-3.1.1.js"></script>
 <script type="text/javascript" src="Scripts/bootstrap.min.js" ></script>
 <script type="text/javascript" src="Scripts/wow.js"></script>
+<script type="text/javascript" src="Scripts/main.js"></script>
 <script>
     new WOW().init();
 </script>
